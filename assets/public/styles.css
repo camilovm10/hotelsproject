@@ -1,0 +1,284 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* GLOBALES */
+
+.italic {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.flex1 {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    background-color: white;
+    border: 1px solid #0000006e;
+    padding: 5px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.219);
+    margin: 0;
+    padding: 20px 10px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.nav-item {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-right: 1rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+.nav-item:hover {
+    color: #e4a317;
+}
+
+.header p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.title {
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    font-size: 3rem;
+
+}
+
+.contenedor-logo img {
+    height: 100px;
+    width: 100px;
+}
+
+.fondo-img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-image: url(../public/img/fondo.jpg);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/* FILTERS */
+
+.container-filters {
+    padding: 30px 0;
+    background-color: #003366;
+}
+
+.container-filters p {
+    color: white;
+    text-align: center;
+    font-size: 1.7rem;
+    padding-bottom: 30px ; 
+    margin: 0;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+}
+
+.filter-item {
+    margin-right: 1.5rem;
+    -webkit-appearance: none;
+    padding: 8px 20px;
+    border: none;
+    font-size: 1rem;
+    
+}
+
+.filter-item:focus {
+    outline: none;
+}
+
+/* Hotel Card */
+
+.hotel-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0;
+    justify-content: center;
+    
+}
+
+.hotel-card {
+    flex: 0 0 calc(32.3% - 2rem);
+    padding: 30px;
+    margin: 20px;
+    border: 1px solid #c4c4c4;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+    position: relative;
+    height: 750px;
+}
+
+.btn {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.hotel-card img {
+    width: 100%;
+
+}
+
+.hotel-card button {
+    width: 400px;
+    padding: 10px 0;
+    background-color: #003366;
+    color: azure;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    transition: all .5s ease;
+}
+
+.hotel-card button:hover {
+    cursor: pointer;
+    background-color: #e4a317;
+}
+
+/* ICONS */
+
+.container-icon {
+    background-color: #003366;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-icon i {
+    color: white;
+    font-size: 1.3rem;
+}
+
+.container-icon2 {
+    background-color: #003366;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-icon2 i {
+    font-size: 1.1rem;
+    margin-right: 3px;
+}
+
+.white {
+    color: rgb(255, 255, 255);
+}
+
+.grey {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+/* CARD */
+
+.city {
+    margin-left: 20px;
+}
+
+/* FILTROS */
+
+.select {
+    -webkit-appearance: none;
+}
+
+.input {   
+    -webkit-appearance: none;
+}
+
+/* FOOTER */
+
+.footer {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.container-icons-footer i {
+    font-size: 2rem;
+    color: white;
+    margin-right: 2rem;
+    transition: all .3s ease;
+}
+
+.container-icons-footer i:hover {
+    color: #e4a317;
+    cursor: pointer;
+}
+
+.logo-footer {
+    border: 1px solid white;
+}
+
+footer {
+    background-color: #003366;
+    padding: 30px 0;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    padding: 5px 0;
+    margin: 0;
+}
+
+.border {
+    margin: 40px 0;
+}
+
